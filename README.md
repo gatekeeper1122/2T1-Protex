@@ -1,3 +1,12 @@
+## sep.cfg
+This repo also holds the latest SEP.cfg (with help from certain members, like kektram and MIKE). Download the latest SEP.cfg and put it into %appdata%\PopstarDevs\2Take1Menu\cfg\  and obviously have windows replace the old file with new file.
+
+## default config
+This repo also has a default (2Take1Menu.ini) profile that has all recomended protections/event hooks enabled for you. Download the latest 2Take1Menu.ini and put into %appdata%\PopstarDevs\2Take1Menu\ and replace the old with the new file (this will reset your default profile).
+
+## default config alt
+This repo also has a default (2Take1Menu.ini) profile that has all recomended protections/event hooks enabled for you. Download the latest 2Take1Menu.ini and put into %appdata%\PopstarDevs\2Take1Menu\ and replace the old with the new file (this will reset your default profile).
+> the alt profile offers keybind options for TKL/60%/80%/90% keyboards.
 
 ## Recommended Protections
 ### Protections
