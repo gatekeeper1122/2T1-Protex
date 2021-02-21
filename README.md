@@ -87,7 +87,7 @@ This repo also has a default (2Take1Menu.ini) profile that has all recomended pr
 - Transaction Fail: Block & Notify
 - Show Banner: Block / Block & Notify
 - Bounty: Block
-> setting to notify, will also give you notifications when other players get a bounty, this is a "Broadcast" event.
+> setting to notify, will also give you notifications when other players get a bounty, this is a "Broadcast" event
 Off the Radar: Block & Notify - OPTIONAL
 CEO Ban/CEO terminate/CEO dismiss: Block & Notify
 > this will actually prevent you from being kicked from a CEO and may stop you from leaving a CEO
@@ -95,9 +95,9 @@ Clear Wanted Level: Block & Notify - OPTIONAL
 Apartment Invite: Block & Notify
 Invalid Apartment Invite: Block & Notify
 Crash Protections: Block & Notify
-> Marks the sender as modder. these are script events with bad args which will cause crashes.
+> Marks the sender as modder. these are script events with bad args which will cause crashes
 Kick Notifications: Notify
-> due to "Block Script Event Kicks" setting this to block is useless. this will also automatically mark senders as modders.
+> due to "Block Script Event Kicks" setting this to block is useless. this will also automatically mark senders as modders
 
 
 #### Net Events
@@ -106,18 +106,18 @@ Kick Notifications: Notify
 - NET CLEAR PED TASKS - Block & Notify
 >	May interfere with some jobs/missions
 - GAME CLOCK - Block
->	OPTIONAL, 2take1 crash protex blocks invalid time crashes. Enable if you hate people changing time.
+>	OPTIONAL, 2take1 crash protex blocks invalid time crashes. Enable if you hate people changing time
 - GAME WEATHER - Block
->	OPTIONAL, 2take1 crash protex blocks invalid weather crashes. Enable if you hate people changing weather.
+>	OPTIONAL, 2take1 crash protex blocks invalid weather crashes. Enable if you hate people changing weather
 - NET PTFX - Block or Block & Notify
->	REQUIRED. Impulse uses this to crash you.
+>	REQUIRED. Impulse uses this to crash you
 - FIRE - Block 
 >	OPTIONAL
 - EXPLOSION - Block & Notify OR Notify only
->	Notify is good for when you  want to know who is blame killing the lobby.
+>	Notify is good for when you  want to know who is blame killing the lobby
 - REQUEST CONTROL - Block 
->	Stops modders from fuckin with the vehicle you're currently using.
->	Notify is optional, and may be bit spammy.
+>	Stops modders from fuckin with the vehicle you're currently using
+>	Notify is optional, and may be bit spammy
 - GIVE WEAPON - Block & Notify
 >	OPTIONAL
 - REMOVE WEAPON - Block & Notify
@@ -125,15 +125,15 @@ Kick Notifications: Notify
 - REMOVE ALL WEAPONS - Block & Notify
 >	OPTIONAL
 - GIVE PICKUP REWARDS - Notify
->	OPTIONAL. Can be used to detect if someone tries to crash you, but also has legitimate uses in CEO missions.
+>	OPTIONAL. Can be used to detect if someone tries to crash you, but also has legitimate uses in CEO missions
 - VOTE KICKS - Notify
->	OPTIONAL. Setting this to block does NOTHING. And the notifications only tell you that the person is vote kicking *someone* not just specifically you.
+>	OPTIONAL. Setting this to block does NOTHING. And the notifications only tell you that the person is vote kicking *someone* not just specifically you
 
 ### Notes
-- Event Hooks > Net Events > VEHICLE COMPONENT CTRL will stop people from going into vehicles near you.
+- Event Hooks > Net Events > VEHICLE COMPONENT CTRL will stop people from going into vehicles near you
 
 ### OPTIONAL
 - NET CHECK EXE SIZE - Notify
->	It has been observed that some modders leak this event.
+>	It has been observed that some modders leak this event
 - NET CHECK CODE CRCS - Notify
->	It has been observed that some modders leak this event.
+>	It has been observed that some modders leak this event
