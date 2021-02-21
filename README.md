@@ -88,15 +88,15 @@ This repo also has a default (2Take1Menu.ini) profile that has all recomended pr
 - Show Banner: Block / Block & Notify
 - Bounty: Block
 > setting to notify, will also give you notifications when other players get a bounty, this is a "Broadcast" event
-Off the Radar: Block & Notify - OPTIONAL
-CEO Ban/CEO terminate/CEO dismiss: Block & Notify
+- Off the Radar: Block & Notify - OPTIONAL
+- CEO Ban/CEO terminate/CEO dismiss: Block & Notify
 > this will actually prevent you from being kicked from a CEO and may stop you from leaving a CEO
-Clear Wanted Level: Block & Notify - OPTIONAL
-Apartment Invite: Block & Notify
-Invalid Apartment Invite: Block & Notify
-Crash Protections: Block & Notify
+- Clear Wanted Level: Block & Notify - OPTIONAL
+- Apartment Invite: Block & Notify
+- Invalid Apartment Invite: Block & Notify
+- Crash Protections: Block & Notify
 > Marks the sender as modder. these are script events with bad args which will cause crashes
-Kick Notifications: Notify
+- Kick Notifications: Notify
 > due to "Block Script Event Kicks" setting this to block is useless. this will also automatically mark senders as modders
 
 
