@@ -69,36 +69,54 @@ This repo also has a default (2Take1Menu.ini) profile that has all recomended pr
 
 #### Script Events
 >	Be sure to grab the latest SEP.cfg from [#script-event-protection-share](https://discord.com/channels/606546434808086529/630443996195586108). 
-> Please note: You must turn off any script event hook that mentions "mission" or "invite" to access heists, missions, jobs, etc.
 > If you are script host, you will be blocking anything here thats set to Block. which may impact legit players. 
 
-- Force to Mission: Block & Notify
-- Invite: Block & Notify
-- Rotate Camera: Block
-> Notify will give false positives when players leave.
-- Remote Blind Eye: Block & Notify - OPTIONAL
-> if someone else has this effect avtive and they get in your car, youll be notified. 
-- CEO 10k Bonus: Block & Notify - OPTIONAL
-- Destroy PErsonal Vehicle: Block - OPTIONAL
-> honestly, no clue what this actually does...
-- kick from vehicle: block & notify
-- vehicle EMP: block & notify
-> turn this off in Arena War jobs/missions
-- Transaction Fail: Block & Notify
-- Show Banner: Block / Block & Notify
-- Bounty: Block
-> setting to notify, will also give you notifications when other players get a bounty, this is a "Broadcast" event
-- Off the Radar: Block & Notify - OPTIONAL
-- CEO Ban/CEO terminate/CEO dismiss: Block & Notify
-> this will actually prevent you from being kicked from a CEO and may stop you from leaving a CEO
-- Clear Wanted Level: Block & Notify - OPTIONAL
+- Invalid Apartment  Invite: Block & Notify
 - Apartment Invite: Block & Notify
-- Invalid Apartment Invite: Block & Notify
-- Crash Protections: Block & Notify
-> Marks the sender as modder. these are script events with bad args which will cause crashes
-- Kick Notifications: Notify
-> due to "Block Script Event Kicks" setting this to block is useless. this will also automatically mark senders as modders
-
+> disable before doing missions/jobs/heists
+- Force Send to Island: Block & Notify
+> disable before doing payo cerico heist/beach party
+- Invite: Block & Notify
+> disable before doing missions/jobs/heists
+- CEO Ban/Terminate/Dismiss: Block & Notify
+> blocking these will prevent you from being kicked from a ceo youre in, even via legit methods
+- Rotate Camera: Block (OPTIONAL)
+> dont set to notify, else false positives.
+- Block Passive Mode: Block
+> haven't tested with notify enabled.
+- Remote Blind Eye: ANY (OPTIONAL)
+> set to whatever option you want
+- CEO 10k Bonus: ANY (OPTIONAL)
+- Modded Spectate: Notify (OPTIONAL)
+> Block is untested. this will mark person as modder. maybe some false positives?
+- Destroy Personal Vehicle: ANY (OPTIONAL)
+> untested, dunno what it actually does?
+- Kick From Vehicle: Block & Notify
+- Vehicle EMP: Block & Notify
+> disable during arena war
+- Disable Jumping: Block & Notify
+- Transaction Fail: Block & Notify
+- Show Banner: ANY (OPTIONAL)
+- Send Modded Bounty: ANY (OPTIONAL)
+> people who have a bounty will also trigger this event.
+- Send Bounty: ANY (OPTIONAL)
+> people who have a bounty will also trigger this event.
+- Sound Spam: ANY
+> may interfere with mc/ceo invites
+- kick from MC club: ANY (OPTIONAL
+> may have false positives? dunno
+- Remote OTR: ANY (OPTIONAL)
+- Clear Wanted Level: ANY (OPTIONAL)
+- Insurance Fraud: Block & Notify
+- Police Bribe: ANY (OPTIONAL)
+- Script Event Crash: Block & Notify
+- Impulse Modder Detection: Notify
+- General Bad Events: Block & Notify
+> may have false positives
+- Notify: Notify (OPTIONAL)
+> unknown uses
+- UNTESTED
+> these events arent fully tested. enable at own discretion.
 
 #### Net Events
 >  enable the "disable all net event hooks" option to disable all these, before accessing jobs/missions/etc
