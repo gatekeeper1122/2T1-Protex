@@ -68,7 +68,7 @@ This repo also has a default (2Take1Menu.ini) profile that has all recomended pr
 >	Not really needed anymore, due to "Block Script Event Kicks" protection.
 
 #### Script Events
->	Be sure to grab the latest SEP.cfg from [#script-event-protection-share](https://discord.com/channels/606546434808086529/630443996195586108). 
+>	Be sure to grab the latest SEP.cfg from [#script-event-protection-share](https://discord.com/channels/606546434808086529/630443996195586108) or [Releases](https://github.com/Entrodor/2T1-Protex/releases). 
 > If you are script host, you will be blocking anything here thats set to Block. which may impact legit players. 
 
 - Invalid Apartment  Invite: Block & Notify
