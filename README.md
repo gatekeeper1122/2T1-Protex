@@ -76,6 +76,8 @@ This repo also has a default (2Take1Menu.ini) profile that has all recomended pr
 > disable before doing missions/jobs/heists
 - Force Send to Island: Block & Notify
 > disable before doing payo cerico heist/beach party
+- Force to Mission: Block & Notify
+> disable before doing any jobs/heists/etc
 - Invite: Block & Notify
 > disable before doing missions/jobs/heists
 - CEO Ban/Terminate/Dismiss: Block & Notify
@@ -115,6 +117,8 @@ This repo also has a default (2Take1Menu.ini) profile that has all recomended pr
 > may have false positives
 - Notify: Notify (OPTIONAL)
 > unknown uses
+- General Bad Events: Block & Notify
+> this may have false positives, not fully tested.
 - UNTESTED
 > these events arent fully tested. enable at own discretion.
 
